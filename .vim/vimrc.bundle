@@ -45,6 +45,7 @@ source ~/.vim/confs/snippets.vim
 source ~/.vim/confs/nerdtree.vim
 source ~/.vim/confs/tagbar.vim
 source ~/.vim/confs/quickrun.vim
+source ~/.vim/confs/easymotion.vim
 source ~/.vim/confs/easy.vim
 
 " All of your Plugins must be added before the following line
