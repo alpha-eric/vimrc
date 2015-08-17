@@ -17,6 +17,6 @@ C+m,			--> select word and change
 
 shift+v ,cc ,cu --> mark
 
-<space>+w/b		--> index word
+space+w/b		--> index word
 
-<space>+s		--> search char
+space+s		--> search char
