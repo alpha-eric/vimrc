@@ -5,6 +5,7 @@ let g:syntastic_warning_symbol='⚠'
 let g:syntastic_check_on_open=1
 let g:syntastic_check_on_wq=0
 let g:syntastic_enable_highlighting=1
+let g:syntastic_cpp_check_header = 1
 
 let g:syntastic_python_checkers=['pyflakes', 'pep8'] " 使用pyflakes,速度比pylint快
 let g:syntastic_python_pep8_args='--ignore=E501,E225'
