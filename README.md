@@ -9,6 +9,8 @@
 
 C+m,			--> select word and change
 
+C+x,      --> skip word
+
 ,zz				--> hidden function
 
 ,n				--> show folder(s, v to open file)
