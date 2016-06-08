@@ -24,3 +24,7 @@ space+w/b		--> index word
 space+s		--> search char
 
 ,pw --> show pydoc
+
+
+# modify
+1) change pydiction control key TAB to be Space.
