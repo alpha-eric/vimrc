@@ -39,7 +39,7 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
 
-source ~/.vim/confs/syntastic.vim
+"source ~/.vim/confs/syntastic.vim
 source ~/.vim/confs/YouCompleteMe.vim
 source ~/.vim/confs/snippets.vim
 source ~/.vim/confs/nerdtree.vim
