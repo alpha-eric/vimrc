@@ -9,4 +9,9 @@ ln -sf $(pwd)/.ssh ~/.ssh
 ln -sf $(pwd)/.gitconfig ~/.gitconfig
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 vim -u ~/.vimrc +BundleInstall! +BundleClean +qall
-sh ~/.vim/bundle/YouCompleteMe/install.sh
+# for mac
+if [ "$(uname)" = "Darwin" ]; then
+	sh ~/.vim/bundle/YouCompleteMe/install.sh --clang-completer --system-libclang
+else
+	sh ~/.vim/bundle/YouCompleteMe/install.sh
+fi
