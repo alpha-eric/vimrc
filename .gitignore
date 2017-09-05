@@ -1,4 +1,5 @@
 .vim/bundle
+.vim/plugin
 .DS_store
 .ssh/id_rsa
 .ssh/id_rsa.pub

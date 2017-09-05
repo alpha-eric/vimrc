@@ -49,6 +49,7 @@ source ~/.vim/confs/easymotion.vim
 source ~/.vim/confs/easy.vim
 source ~/.vim/confs/pydoc.vim
 source ~/.vim/confs/pydiction.vim
+source ~/.vim/confs/pyflakes.vim
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
