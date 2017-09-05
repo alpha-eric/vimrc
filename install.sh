@@ -15,3 +15,6 @@ if [ "$(uname)" = "Darwin" ]; then
 else
 	sh ~/.vim/bundle/YouCompleteMe/install.sh
 fi
+
+echo "snippet pri\n\Tab print("${1}") into python.snippets"
+echo "inromap <Tab> -> <C-n>"
