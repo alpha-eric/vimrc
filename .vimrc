@@ -30,7 +30,10 @@ set laststatus=2
 set statusline=%4*%<\%m%<[%f\%r%h%w]\ [%{&ff},%{&fileencoding},%Y]%=\[Position=%l,%v,%p%%]
 "set nu
 "set paste
-"colorscheme torte
+set background=light
+"set t_Co=16
+"let g:solarized_termcolors=256
+colorscheme solarized
 
 highlight CursorLine cterm=none ctermbg=2 ctermfg=0
 set dictionary+=/usr/share/dict/words

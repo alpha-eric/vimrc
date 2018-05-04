@@ -41,9 +41,12 @@ Plugin 'VundleVim/Vundle.vim'
 
 "source ~/.vim/confs/syntastic.vim
 source ~/.vim/confs/YouCompleteMe.vim
+source ~/.vim/confs/ListToggle.vim
 source ~/.vim/confs/snippets.vim
 source ~/.vim/confs/nerdtree.vim
 source ~/.vim/confs/tagbar.vim
+source ~/.vim/confs/powerline.vim
+source ~/.vim/confs/ctags.vim
 source ~/.vim/confs/quickrun.vim
 source ~/.vim/confs/easymotion.vim
 source ~/.vim/confs/easy.vim
