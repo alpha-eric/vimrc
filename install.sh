@@ -13,7 +13,7 @@ vim -u ~/.vimrc +BundleInstall! +BundleClean +qall
 if [ "$(uname)" = "Darwin" ]; then
 	sh ~/.vim/bundle/YouCompleteMe/install.sh --clang-completer --system-libclang
 else
-	sh ~/.vim/bundle/YouCompleteMe/install.sh
+	sh ~/.vim/bundle/YouCompleteMe/install.sh --clang-completer
 fi
 
 echo "snippet pri\n\Tab print("${1}") into python.snippets"
