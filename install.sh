@@ -11,12 +11,6 @@ ln -sf $(pwd)/.ssh ~/
 ln -sf $(pwd)/.config ~/
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 vim -u ~/.vimrc +BundleInstall! +BundleClean +qall
-# for mac
-if [ "$(uname)" = "Darwin" ]; then
-	sh ~/.vim/bundle/YouCompleteMe/install.sh --clang-completer --system-libclang
-else
-	sh ~/.vim/bundle/YouCompleteMe/install.sh --clang-completer
-fi
-
+sh ~/.vim/bundle/YouCompleteMe/install.sh --clang-completer
 echo "snippet pri\n\Tab print("${1}") into python.snippets"
 echo "inromap <Tab> -> <C-n>"
